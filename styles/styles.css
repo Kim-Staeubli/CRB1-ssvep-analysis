@@ -1,0 +1,83 @@
+
+.text {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+    margin-right: 250px;
+}
+
+.title {
+    font-size: 1em; /* 40px/16=2.5em */
+}
+
+.authors {
+    font-size: 0.9em; /* 40px/16=2.5em */
+}
+
+   
+ol.institutions {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8em; /* 40px/16=2.5em */
+    counter-reset: item;
+    padding-left: 1em;
+    line-height: 0.9;
+    margin-bottom: 30px;
+
+    }
+
+    .institutions li:before{
+        content: counter(item) ".";
+        counter-increment: item;
+        position: absolute;	
+        vertical-align:super;
+        font-size:xx-small;
+        left: 1em;
+    }
+
+    .institutions li{
+        position: relative;
+        display: block;
+        padding: .0em 20px .0em 1.5em;
+    }
+
+
+.section {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em; /* 40px/16=2.5em */
+
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+    margin-right: 250px;
+    border:  #ccc;
+    background-color: white;
+
+}
+
+    .section-one {
+        background-color: white;
+        /* margin: 5px; */
+    }
+
+    .section-one img {
+        height: 300px;
+        column-gap: 300;
+
+        display: grid | inline-grid;
+    }
+
+    .section-two img {
+        height: 300px;
+        display: grid | inline-grid;
+    }
+
+
+    .section-four {
+        display: grid | inline-grid;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .section-four img{
+        height: 12px;
+        margin-right: 10px;
+        }
