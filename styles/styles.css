@@ -20,7 +20,7 @@ ol.institutions {
     counter-reset: item;
     padding-left: 1rem;
     line-height: 0.9rem;
-    margin-bottom: 1.25rem;
+    margin-bottom: 2.5rem;
     margin-right: 2rem;
 
 
@@ -48,7 +48,7 @@ ol.institutions {
 
     margin-left: 1rem;
     margin-right: 2rem;
-    margin-bottom: 1.5rem;
+    margin-bottom: 2.5rem;
     border:  none;
 }
 
@@ -71,7 +71,7 @@ ol.institutions {
 
     .section-four {
         display: grid | inline-grid;
-        margin-bottom: 10px;
+        margin-bottom: 1 rem;
         text-align: center;
     }
 
